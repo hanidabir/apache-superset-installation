@@ -3,7 +3,7 @@
 ### Prerequisites
 - Ubuntu 24.04 with sudo access
 - Python 3.10 installed  
-- Open firewall ports for Superset web and SSH access (default: 8088, custom: 2180/21443, SSH)
+- Open firewall ports for Superset web and SSH access (default: 8088)
 - Reliable internet connection (or alternative PyPI mirror access)
 
 ***
@@ -181,7 +181,6 @@ sudo systemctl status superset
 
 **Note:**  
 For production use, run Superset behind a proper WSGI server like gunicorn and (optionally) a reverse proxy such as Nginx/Apache, especially if you require HTTPS.  
-If you need a sample for SSL or production deployment, just ask!
 
 ***
 
